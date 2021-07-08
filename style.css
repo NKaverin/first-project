@@ -1,0 +1,29 @@
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: #338114c9;
+}
+
+div {
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; 
+    font-style: italic;
+    font-weight: bold;     
+}
+
+.section {
+    display: flex; 
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.main_problems {
+    justify-content: space-around;
+}
